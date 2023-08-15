@@ -40,7 +40,7 @@ export interface FilterProps {
 
 export interface OptionProps {
   title: string;
-  value: string; 
+  value: string;
 }
 
 export interface CustomFilterProps {
@@ -49,3 +49,8 @@ export interface CustomFilterProps {
 }
 
 // array of title and value
+
+export interface ShowMoreProps {
+  pageNumber: number;
+  isNext: boolean;
+}
